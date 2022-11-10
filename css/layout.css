@@ -1,0 +1,96 @@
+html {
+    font-size: 62.5%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    padding: 1rem;
+    font-size: 1.3rem;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  .genre {
+    list-style: none;
+  }
+
+  li {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  h3 {
+    padding-bottom: 1rem;
+  }
+
+  .osat {
+    padding: 1rem;
+  }
+
+  table {
+    margin-left: 1rem;
+  }
+
+  td {
+    padding: 0.25rem;
+    padding-right: 1rem;
+  }
+
+  .first > * {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ul-style {
+    background-color: rgb(194, 190, 190);
+    padding: 1rem;
+  }
+
+  .a-style {
+    text-decoration-style: dotted;
+    color: rgb(137, 3, 3);
+    font-weight: bold;
+  }
+
+  .pdf-style {
+    color: red;
+    padding: 0.25rem;
+  }
+
+  .env-style {
+    color: orange;
+    padding: 0.25rem;
+  }
+
+  .ext-style {
+    color: rgb(77, 141, 77);
+    padding: 0.25rem;
+  }
+
+  .table-first tr:nth-child(even) {
+    background-color: rgb(194, 190, 190);
+  }
+
+  .table-second tr:nth-child(odd) {
+    background-color: rgb(194, 190, 190);
+  }
